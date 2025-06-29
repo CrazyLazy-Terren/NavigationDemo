@@ -6,43 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		C8E0975A2E0976B100182DD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C8E097432E0976AF00182DD9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C8E0974A2E0976B000182DD9;
-			remoteInfo = NavgationDemo;
-		};
-		C8E097642E0976B100182DD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C8E097432E0976AF00182DD9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C8E0974A2E0976B000182DD9;
-			remoteInfo = NavgationDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		C8E0974B2E0976B000182DD9 /* NavgationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavgationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8E097592E0976B100182DD9 /* NavgationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavgationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8E097632E0976B100182DD9 /* NavgationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavgationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E0974B2E0976B000182DD9 /* NavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C8E0974D2E0976B000182DD9 /* NavgationDemo */ = {
+		C8E0974D2E0976B000182DD9 /* NavigationDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NavgationDemo;
-			sourceTree = "<group>";
-		};
-		C8E0975C2E0976B100182DD9 /* NavgationDemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NavgationDemoTests;
-			sourceTree = "<group>";
-		};
-		C8E097662E0976B100182DD9 /* NavgationDemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NavgationDemoUITests;
+			path = NavigationDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -55,29 +26,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8E097562E0976B100182DD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8E097602E0976B100182DD9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C8E097422E0976AF00182DD9 = {
 			isa = PBXGroup;
 			children = (
-				C8E0974D2E0976B000182DD9 /* NavgationDemo */,
-				C8E0975C2E0976B100182DD9 /* NavgationDemoTests */,
-				C8E097662E0976B100182DD9 /* NavgationDemoUITests */,
+				C8E0974D2E0976B000182DD9 /* NavigationDemo */,
 				C8E0974C2E0976B000182DD9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +40,7 @@
 		C8E0974C2E0976B000182DD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8E0974B2E0976B000182DD9 /* NavgationDemo.app */,
-				C8E097592E0976B100182DD9 /* NavgationDemoTests.xctest */,
-				C8E097632E0976B100182DD9 /* NavgationDemoUITests.xctest */,
+				C8E0974B2E0976B000182DD9 /* NavigationDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8E0974A2E0976B000182DD9 /* NavgationDemo */ = {
+		C8E0974A2E0976B000182DD9 /* NavigationDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8E0976D2E0976B100182DD9 /* Build configuration list for PBXNativeTarget "NavgationDemo" */;
+			buildConfigurationList = C8E0976D2E0976B100182DD9 /* Build configuration list for PBXNativeTarget "NavigationDemo" */;
 			buildPhases = (
 				C8E097472E0976B000182DD9 /* Sources */,
 				C8E097482E0976B000182DD9 /* Frameworks */,
@@ -108,60 +61,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C8E0974D2E0976B000182DD9 /* NavgationDemo */,
+				C8E0974D2E0976B000182DD9 /* NavigationDemo */,
 			);
-			name = NavgationDemo;
+			name = NavigationDemo;
 			packageProductDependencies = (
 			);
 			productName = NavgationDemo;
-			productReference = C8E0974B2E0976B000182DD9 /* NavgationDemo.app */;
+			productReference = C8E0974B2E0976B000182DD9 /* NavigationDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C8E097582E0976B100182DD9 /* NavgationDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C8E097702E0976B100182DD9 /* Build configuration list for PBXNativeTarget "NavgationDemoTests" */;
-			buildPhases = (
-				C8E097552E0976B100182DD9 /* Sources */,
-				C8E097562E0976B100182DD9 /* Frameworks */,
-				C8E097572E0976B100182DD9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C8E0975B2E0976B100182DD9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C8E0975C2E0976B100182DD9 /* NavgationDemoTests */,
-			);
-			name = NavgationDemoTests;
-			packageProductDependencies = (
-			);
-			productName = NavgationDemoTests;
-			productReference = C8E097592E0976B100182DD9 /* NavgationDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C8E097622E0976B100182DD9 /* NavgationDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C8E097732E0976B100182DD9 /* Build configuration list for PBXNativeTarget "NavgationDemoUITests" */;
-			buildPhases = (
-				C8E0975F2E0976B100182DD9 /* Sources */,
-				C8E097602E0976B100182DD9 /* Frameworks */,
-				C8E097612E0976B100182DD9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C8E097652E0976B100182DD9 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C8E097662E0976B100182DD9 /* NavgationDemoUITests */,
-			);
-			name = NavgationDemoUITests;
-			packageProductDependencies = (
-			);
-			productName = NavgationDemoUITests;
-			productReference = C8E097632E0976B100182DD9 /* NavgationDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -176,17 +83,9 @@
 					C8E0974A2E0976B000182DD9 = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					C8E097582E0976B100182DD9 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = C8E0974A2E0976B000182DD9;
-					};
-					C8E097622E0976B100182DD9 = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = C8E0974A2E0976B000182DD9;
-					};
 				};
 			};
-			buildConfigurationList = C8E097462E0976AF00182DD9 /* Build configuration list for PBXProject "NavgationDemo" */;
+			buildConfigurationList = C8E097462E0976AF00182DD9 /* Build configuration list for PBXProject "NavigationDemo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,29 +99,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8E0974A2E0976B000182DD9 /* NavgationDemo */,
-				C8E097582E0976B100182DD9 /* NavgationDemoTests */,
-				C8E097622E0976B100182DD9 /* NavgationDemoUITests */,
+				C8E0974A2E0976B000182DD9 /* NavigationDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C8E097492E0976B000182DD9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8E097572E0976B100182DD9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8E097612E0976B100182DD9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8E097552E0976B100182DD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8E0975F2E0976B100182DD9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C8E0975B2E0976B100182DD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C8E0974A2E0976B000182DD9 /* NavgationDemo */;
-			targetProxy = C8E0975A2E0976B100182DD9 /* PBXContainerItemProxy */;
-		};
-		C8E097652E0976B100182DD9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C8E0974A2E0976B000182DD9 /* NavgationDemo */;
-			targetProxy = C8E097642E0976B100182DD9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C8E0976B2E0976B100182DD9 /* Debug */ = {
@@ -390,7 +246,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NavgationDemo/NavgationDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NavigationDemo/NavigationDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -429,7 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = NavgationDemo/NavgationDemo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NavigationDemo/NavigationDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -463,100 +319,10 @@
 			};
 			name = Release;
 		};
-		C8E097712E0976B100182DD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29Q52CHC8K;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.crazyalzy.NavgationDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavgationDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavgationDemo";
-				XROS_DEPLOYMENT_TARGET = 2.5;
-			};
-			name = Debug;
-		};
-		C8E097722E0976B100182DD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29Q52CHC8K;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.crazyalzy.NavgationDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavgationDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NavgationDemo";
-				XROS_DEPLOYMENT_TARGET = 2.5;
-			};
-			name = Release;
-		};
-		C8E097742E0976B100182DD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29Q52CHC8K;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.crazyalzy.NavgationDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = NavgationDemo;
-				XROS_DEPLOYMENT_TARGET = 2.5;
-			};
-			name = Debug;
-		};
-		C8E097752E0976B100182DD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 29Q52CHC8K;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = xyz.crazyalzy.NavgationDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = NavgationDemo;
-				XROS_DEPLOYMENT_TARGET = 2.5;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8E097462E0976AF00182DD9 /* Build configuration list for PBXProject "NavgationDemo" */ = {
+		C8E097462E0976AF00182DD9 /* Build configuration list for PBXProject "NavigationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8E0976B2E0976B100182DD9 /* Debug */,
@@ -565,29 +331,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8E0976D2E0976B100182DD9 /* Build configuration list for PBXNativeTarget "NavgationDemo" */ = {
+		C8E0976D2E0976B100182DD9 /* Build configuration list for PBXNativeTarget "NavigationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8E0976E2E0976B100182DD9 /* Debug */,
 				C8E0976F2E0976B100182DD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C8E097702E0976B100182DD9 /* Build configuration list for PBXNativeTarget "NavgationDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8E097712E0976B100182DD9 /* Debug */,
-				C8E097722E0976B100182DD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C8E097732E0976B100182DD9 /* Build configuration list for PBXNativeTarget "NavgationDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8E097742E0976B100182DD9 /* Debug */,
-				C8E097752E0976B100182DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
