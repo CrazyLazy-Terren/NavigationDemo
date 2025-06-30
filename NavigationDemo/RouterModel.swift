@@ -33,7 +33,7 @@ final
 {
   var horizontalSize: UserInterfaceSizeClass? = nil
   @Published var currentPath: NavPath? = .home
-  @Published var path: [NavPath] = []
+  @Published var paths: [NavPath] = []
 
   func backToRoot() {
     // Back to silderbar on compact size like iPhone
@@ -46,7 +46,7 @@ final
     if case .user(_) = currentPath, let user = UserModel.shared.users.first {
       currentPath = .user(user.id)
     } else {
-      path = []
+      paths = []
       currentPath = .home
 
     }

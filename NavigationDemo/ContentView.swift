@@ -51,7 +51,7 @@ struct ContentView: View {
       }
     } detail: {
       // Detail column with NavigationStack
-      NavigationStack(path: $routerModel.path) {
+      NavigationStack(path: $routerModel.paths) {
         DetailView(item: routerModel.currentPath ?? .home)
           .environmentObject(routerModel)
           .navigationDestination(for: NavPath.self) { path in
