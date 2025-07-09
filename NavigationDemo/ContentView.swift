@@ -88,7 +88,7 @@ struct DetailView: View {
       case .profile(let userID):
         ProfileView(userID: userID)
       case .settings:
-        Text("Settings View")
+        SettingView()
       }
     }
     .navigationTitle(item.name)
