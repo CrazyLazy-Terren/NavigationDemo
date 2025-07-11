@@ -1,5 +1,5 @@
 # NavgationDemo
-Dev_log_01 Code
+Dev_log Code
 
-## Video Demo 
+## Dev_log_01 Video Demo 
 https://youtu.be/X6Bx1SO6VjI
